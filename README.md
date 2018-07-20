@@ -92,4 +92,4 @@ gulp 中文API：[http://www.ydcss.com/archives/424](http://www.ydcss.com/archiv
 
 6.1、说明：package.json是基于nodejs项目必不可少的配置文件，它是存放在项目根目录的普通json文件；
 
-6.2、它是这样一个json文件<strong style="color: red;">`（注意：json文件内是不能写注释的，复制下列内容请删除注释）`</strong>：
+6.2、它是这样一个json文件<sapn style="color: red;">`（注意：json文件内是不能写注释的，复制下列内容请删除注释）`</span>：
