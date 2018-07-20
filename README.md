@@ -115,3 +115,4 @@ gulp 中文API：[http://www.ydcss.com/archives/424](http://www.ydcss.com/archiv
       }
     }
 ```
+6.3、当然我们可以手动新建这个配置文件，但是作为一名有志青年，我们应该使用更为效率的方法：命令提示符执行<strong>cnpm init</strong>
