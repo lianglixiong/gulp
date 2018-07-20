@@ -42,6 +42,7 @@ gulp 中文API：[http://www.ydcss.com/archives/424](http://www.ydcss.com/archiv
 
 #### 3、npm介绍
 
+```
     3.1、说明：npm（node package manager）nodejs的包管理器，用于node插件管理（包括安装、卸载、管理依赖等）；
 
     3.2、使用npm安装插件：命令提示符执行npm install <name> [-g] [--save-dev]；
