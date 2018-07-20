@@ -87,3 +87,9 @@ gulp 中文API：[http://www.ydcss.com/archives/424](http://www.ydcss.com/archiv
 5.2、安装：命令提示符执行<strong>`cnpm install gulp -g`</strong>；
 
 5.3、查看是否正确安装：命令提示符执行<strong>`gulp -v`</strong>，出现版本号即为正确安装。
+
+#### 6、新建package.json文件
+
+6.1、说明：package.json是基于nodejs项目必不可少的配置文件，它是存放在项目根目录的普通json文件；
+
+6.2、它是这样一个json文件<strong style="color: red;">`（注意：json文件内是不能写注释的，复制下列内容请删除注释）`</strong>：
