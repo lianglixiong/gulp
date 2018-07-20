@@ -37,3 +37,5 @@ gulp 中文API：[http://www.ydcss.com/archives/424](http://www.ydcss.com/archiv
      dir列出文件列表；
 
      cls清空命令提示符窗口内容。
+
+     <img src="http://static.ydcss.com/uploads/2015/03/gulp-01.png" alt="">
