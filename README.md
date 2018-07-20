@@ -19,3 +19,21 @@ gulp 中文API：[http://www.ydcss.com/archives/424](http://www.ydcss.com/archiv
 1.1、说明：gulp是基于nodejs，理所当然需要安装nodejs；
 
 1.2、安装：打开[nodejs官网](https://nodejs.org/en/)，点击硕大的绿色Download按钮，它会根据系统信息选择对应版本（.msi文件）。然后像安装QQ一样安装它就可以了（安装路径随意）。
+
+#### 2、使用命令行（如果你熟悉命令行，可以直接跳到第3步）
+
+2.1、说明：什么是命令行？命令行在OSX是终端（Terminal），在windows是命令提示符（Command Prompt）；
+
+2.2、注：之后操作都是在windows系统下；
+
+2.3、简单介绍gulp在使用过程中常用命令，打开命令提示符执行下列命令（打开方式：window + r 输入cmd回车）：
+
+node -v查看安装的nodejs版本，出现版本号，说明刚刚已正确安装nodejs。PS：未能出现版本号，请尝试注销电脑重试；
+
+npm -v查看npm的版本号，npm是在安装nodejs时一同安装的nodejs包管理器，那它有什么用呢？稍后解释；
+
+cd定位到目录，用法：cd + 路径 ；
+
+dir列出文件列表；
+
+cls清空命令提示符窗口内容。
