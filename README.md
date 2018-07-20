@@ -48,7 +48,7 @@ gulp 中文API：[http://www.ydcss.com/archives/424](http://www.ydcss.com/archiv
 
         3.2.1、<name>：node插件名称。例：npm install gulp-less --save-dev
 
->    3.2.2、-g：全局安装。将会安装在C:\Users\Administrator\AppData\Roaming\npm，并且写入系统环境变量；  非全局安装：将会安装在当前定位目录；  全局安装可以通过命令行在任何地方调用它，本地安装将安装在定位目录的node_modules文件夹下，通过require()调用；
+        3.2.2、-g：全局安装。将会安装在C:\Users\Administrator\AppData\Roaming\npm，并且写入系统环境变量；  非全局安装：将会安装在当前定位目录；  全局安装可以通过命令行在任何地方调用它，本地安装将安装在定位目录的node_modules文件夹下，通过require()调用；
 
         3.2.3、--save：将保存配置信息至package.json（package.json是nodejs项目配置文件）；
 
