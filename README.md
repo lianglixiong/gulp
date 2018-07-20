@@ -160,3 +160,17 @@ PS：细心的你可能会发现，我们全局安装了gulp，项目也安装�
     //gulp.dest(path[, options]) 处理完后文件生成路径
 ```
 8.3、该示例文件请下载示例查看<strong>`git clone git@github.com:lianglixiong/gulp.git`</strong>
+
+#### 9、运行gulp
+
+9.1、说明：命令提示符执行<strong>`gulp 任务名称`</strong>；
+
+9.2、编译less：命令提示符执行<strong>`gulp testLess`</strong>；
+
+9.3、当执行<strong>`gulp default`</strong>或<strong>`gulp`</strong>将会调用default任务里的所有任务[‘testLess’,’elseTask’]。
+
+#### 10、使用webstorm运行gulp任务
+
+10.1、说明：使用webstorm可视化运行gulp任务；
+
+10.2、使用方法：将项目导入webstorm，右键gulpfile.js 选择”Show Gulp Tasks”打开Gulp窗口，若出现”No task found”，选择右键”Reload tasks”，双击运行即可。
