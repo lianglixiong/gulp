@@ -77,6 +77,6 @@ gulp 中文API：[http://www.ydcss.com/archives/424](http://www.ydcss.com/archiv
 
 4.2、官方网址：[http://npm.taobao.org](http://npm.taobao.org)；
 
-4.3、安装：命令提示符执行npm install cnpm -g --registry=`https://registry.npm.taobao.org`；  注意：安装完后最好查看其版本号`cnpm -v`或关闭命令提示符重新打开，安装完直接使用有可能会出现错误；
+4.3、安装：命令提示符执行npm install cnpm -g --registry=<strong>https://registry.npm.taobao.org</strong>；  注意：安装完后最好查看其版本号`cnpm -v`或关闭命令提示符重新打开，安装完直接使用有可能会出现错误；
 
 注：cnpm跟npm用法完全一致，只是在执行命令时将npm改为cnpm（以下操作将以cnpm代替npm）。
