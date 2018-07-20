@@ -115,4 +115,48 @@ gulp 中文API：[http://www.ydcss.com/archives/424](http://www.ydcss.com/archiv
       }
     }
 ```
-6.3、当然我们可以手动新建这个配置文件，但是作为一名有志青年，我们应该使用更为效率的方法：命令提示符执行<strong>cnpm init</strong>
+6.3、当然我们可以手动新建这个配置文件，但是作为一名有志青年，我们应该使用更为效率的方法：命令提示符执行<strong>`cnpm init`</strong>
+
+<img src="http://static.ydcss.com/uploads/2015/03/gulp-3.png" alt="">
+
+6.4、查看package.json帮助文档，命令提示符执行<strong>`cnpm help package.json`</strong>
+
+特别注意：package.json是一个普通json文件，所以不能添加任何注释。参看 [http://www.zhihu.com/question/23004511](http://www.zhihu.com/question/23004511)
+
+#### 7、本地安装gulp插件
+
+7.1、安装：定位目录命令后提示符执行<strong>`cnpm install --save-dev`</strong>；
+
+7.2、本示例以gulp-less为例（编译less文件），命令提示符执行<strong>`cnpm install gulp-less --save-dev`</strong>；
+<img src="http://static.ydcss.com/uploads/2015/02/gulp-less-2.png" alt="">
+
+7.3、将会安装在node_modules的gulp-less目录下，该目录下有一个gulp-less的使用帮助文档README.md；
+
+7.4、为了能正常使用，我们还得本地安装gulp：<strong>`cnpm install gulp --save-dev`</strong>；
+
+PS：细心的你可能会发现，我们全局安装了gulp，项目也安装了gulp，全局安装gulp是为了执行gulp任务，本地安装gulp则是为了调用gulp插件的功能。
+
+#### 8、新建gulpfile.js文件（重要）
+8.1、说明：gulpfile.js是gulp项目的配置文件，是位于项目根目录的普通js文件（其实将gulpfile.js放入其他文件夹下亦可）。
+
+8.2、它大概是这样一个js文件（更多插件配置请查看[这里](http://www.ydcss.com/archives/tag/gulp)）：
+
+```
+    //导入工具包 require('node_modules里对应模块')
+    var gulp = require('gulp'), //本地安装gulp所用到的地方
+        less = require('gulp-less');
+     
+    //定义一个testLess任务（自定义任务名称）
+    gulp.task('testLess', function () {
+        gulp.src('src/less/index.less') //该任务针对的文件
+            .pipe(less()) //该任务调用的模块
+            .pipe(gulp.dest('src/css')); //将会在src/css下生成index.css
+    });
+     
+    gulp.task('default',['testLess', 'elseTask']); //定义默认任务 elseTask为其他任务，该示例没有定义elseTask任务
+     
+    //gulp.task(name[, deps], fn) 定义任务  name：任务名称 deps：依赖任务名称 fn：回调函数
+    //gulp.src(globs[, options]) 执行任务处理的文件  globs：处理的文件路径(字符串或者字符串数组) 
+    //gulp.dest(path[, options]) 处理完后文件生成路径
+```
+8.3、该示例文件请下载示例查看<strong>`git clone git@github.com:lianglixiong/gulp.git`</strong>
