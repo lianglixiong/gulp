@@ -1,6 +1,6 @@
 #定位项目 命令提示符执行cnpm install
 
-##gulp常用地址：
+## gulp常用地址：
 
 gulp官方网址：[http://gulpjs.com](http://gulpjs.com)
 
