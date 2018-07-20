@@ -80,3 +80,10 @@ gulp 中文API：[http://www.ydcss.com/archives/424](http://www.ydcss.com/archiv
 4.3、安装：命令提示符执行npm install cnpm -g --registry=<strong>`https://registry.npm.taobao.org`</strong>；  注意：安装完后最好查看其版本号<strong>`cnpm -v`</strong>或关闭命令提示符重新打开，安装完直接使用有可能会出现错误；
 
 注：cnpm跟npm用法完全一致，只是在执行命令时将npm改为cnpm（以下操作将以cnpm代替npm）。
+
+#### 5、全局安装gulp
+5.1、说明：全局安装gulp目的是为了通过她执行gulp任务；
+
+5.2、安装：命令提示符执行<strong>`cnpm install gulp -g`</strong>；
+
+5.3、查看是否正确安装：命令提示符执行<strong>`gulp -v`</strong>，出现版本号即为正确安装。
