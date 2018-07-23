@@ -1,0 +1,11 @@
+a{text-decoration:none}
+ul li{list-style:none}
+h5{width:100px}
+h5 .shopIp{height:400px;background:red}
+h5 .shopIp a{color:#ff0}
+h5 .shopIq{display:flex;flex-direction:column;background:#00f}
+h5 .shopIq h4{line-height:20px}
+h5 .shopIq h4 a{color:#ccc;line-height:20px}
+#box{box-sizing:border-box}
+#box h3{border:1px solid #ccc;background:url(../image/detail.png?v=QU1abYgapMxOVn2uN0GXcQ%3D%3D) no-repeat}
+#box h3 i:nth-child(1){width:20px;height:20px}

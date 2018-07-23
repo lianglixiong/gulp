@@ -1,19 +1,6 @@
-.index1 {
-  background-color: red;
-}
-.index2 {
-  background-color: black;
-}
-.index3 {
-  background-color: blue;
-}
-.box {
-  width: 100px;
-  height: 100px;
-  background: red;
-}
-.box h6 {
-  width: 50px;
-  height: 50px;
-  background: yellow;
-}
+.index1{background-color:red}
+.index2{background-color:#000}
+.index3{background-color:#00f}
+.box{width:100px;height:100px;background:red}
+.box h6{width:50px;height:50px;background:#ff0}
+.box h6 p{font-weight:700;font-size:24px}
